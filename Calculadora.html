@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" href="/Imagens/imagem2.ico" />
+    <title>Minha Calculadora</title>
+  </head>
+  <body>
+    <section class="container">
+      <header class="cabecalho">Vitor <span>Nicácio</span> Calculadora!</header>
+    </section>
+
+    <section class="container">
+      <div class="conteudo">
+        <script>
+          window.alert(
+            'Olá, essa é uma Calculadora, que mostrará os Resultados de: Soma, Multiplicação, Subtração e Divisão!'
+          )
+          let nome = String(window.prompt('Digite seu nome, por favor: '))
+          let n1 = Number(window.prompt('Digite um número: '))
+          let n2 = Number(window.prompt('Digite outro número: '))
+
+          window.confirm(
+            `Você escolheu os números: ${n1} e ${n2}, para fazer as operações, deseja continuar?`
+          ) // usando "`´", você pode adiconar as variáveis, sem usar o "+"
+
+          let soma = n1 + n2
+          let mult = n1 * n2
+          let sub = n1 - n2
+          let div = n1 / n2
+
+          document.write(
+            `Olá, <strong>${nome}</strong>,<br> Eu estou muito feliz pelo sr./sra estar utilizando a minha Calculadora!` +
+              '<br>'
+          )
+          document.write('O Resultado da sua Adição, é: ' + soma + '.' + '<br>')
+          document.write(
+            'O Resultado da sua Multiplicação, é: ' + mult + '.' + '<br>'
+          )
+          document.write(
+            'O Resultado da sua Subtração, é: ' + sub + '.' + '<br>'
+          )
+          document.write(
+            'O Resultado da sua divisão, é: ' + div.toFixed(1) + '.' + '<br>'
+          ) // toFixed serve para enumerar as casas decimais!
+        </script>
+      </div>
+    </section>
+    <footer>
+      <li>
+        <a
+          href="https://www.linkedin.com/in/vitor-nic%C3%A1cio-de-souza-9b476a188/"
+          >LinkedIn</a
+        ><br />
+      </li>
+      <li>E-mail: vitornicacio2010@hotmail.com</li>
+      © Vitor Nicácio - Todos os Direitos Reservados! (Brincadeira)
+    </footer>
+  </body>
+</html>

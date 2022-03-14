@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/Imagens/imagem.png.png);
+  background-position: center;
+}
+.container {
+  margin: 20px 20px 20px 20px;
+}
+
+.cabecalho {
+  background-color: rgb(0, 48, 70);
+  color: fuchsia;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid fuchsia;
+  border-radius: 15px;
+}
+
+a {
+  color: fuchsia;
+  padding: 20px;
+}
+
+span {
+  color: white;
+}
+
+.conteudo {
+  background-color: white;
+  color: black;
+  border: 2px solid fuchsia;
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(0, 48, 70);
+  color: fuchsia;
+  width: max-content 90%;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  border: 2px solid fuchsia;
+  border-radius: 15px;
+  list-style: none;
+  font-size: 21px;
+}
+strong {
+  color: fuchsia;
+}
